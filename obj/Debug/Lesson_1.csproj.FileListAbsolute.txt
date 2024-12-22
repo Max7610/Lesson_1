@@ -1,0 +1,7 @@
+C:\Users\Смайлик\source\repos\Lesson_1\Lesson_1\bin\Debug\Lesson_1.exe.config
+C:\Users\Смайлик\source\repos\Lesson_1\Lesson_1\bin\Debug\Lesson_1.exe
+C:\Users\Смайлик\source\repos\Lesson_1\Lesson_1\bin\Debug\Lesson_1.pdb
+C:\Users\Смайлик\source\repos\Lesson_1\Lesson_1\obj\Debug\Lesson_1.csproj.AssemblyReference.cache
+C:\Users\Смайлик\source\repos\Lesson_1\Lesson_1\obj\Debug\Lesson_1.csproj.CoreCompileInputs.cache
+C:\Users\Смайлик\source\repos\Lesson_1\Lesson_1\obj\Debug\Lesson_1.exe
+C:\Users\Смайлик\source\repos\Lesson_1\Lesson_1\obj\Debug\Lesson_1.pdb
