@@ -95,7 +95,7 @@ namespace Lesson_1
             #region
             
             foreach(var i in Students.Select(n => new { StudentName = n.Name, IsExcellent = n.Grade > 8.0 })
-                .Where(n => n.IsExcellent == true))
+                .Where(n => n.IsExcellent))
             {
                 Console.WriteLine($"{i.StudentName} -> {i.IsExcellent}");
             }
@@ -135,7 +135,7 @@ namespace Lesson_1
         }
         static List<string> GenericSubject(int n,int k)
         {
-            List<string> strings = new List<string> {"Математика","Русский язык","Литература","Физика","Информатика","Обществознание" };
+            List<string> strings = new List<string> {"Математика","Русский язык","Литература","Физика","Информатика","Обществознание","История","Химия","Астрономия" };
             var list = new List<string>();
             Random rand = new Random(k);
             for (int i =0;i<n;i++)
@@ -163,7 +163,7 @@ namespace Lesson_1
             Grade = grade;
             Subjects = subjects;    
         }
-        public string ToString()
+        public override string ToString()
         {
             return $"id: {Id}, Name: {Name} Age: {Age} Grade: {Grade}  \nSubject: {string.Join(", ",Subjects)}";
         }
