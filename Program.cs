@@ -123,7 +123,7 @@ namespace Lesson_1
         {
             Test t = new Test();
             t.Testing();
-            TestingAsinc p = new TestingAsinc();
+            TestingAsync p = new TestingAsync();
             p.ReadTwoDateAsync();
         }
         static List<Student> GenericStudentList(int n)
@@ -188,7 +188,7 @@ namespace Lesson_1
         
     }
 
-    class TestingAsinc
+    class TestingAsync
     {
         SqlConnection sqlConnection = null;
 
@@ -197,7 +197,7 @@ namespace Lesson_1
         {
             var cts1 = new CancellationTokenSource();
             var cts2 = new CancellationTokenSource();
-            TestingAsinc test = new TestingAsinc();
+            TestingAsync test = new TestingAsync();
             var a = test.ReadDataSongListAsync(true, cts1.Token, 2000);//Меняя время задержки управляем выполнением или не выполнением процесса 
             Console.WriteLine(">>1");
             var b = test.ReadDataSongListAsync(false, cts2.Token, 1000);
@@ -307,7 +307,6 @@ namespace Lesson_1
     }
     class SingerSong
     {
-
         public string Song { get; }
         public string Singer { get; }
         public bool Activ { get; }
